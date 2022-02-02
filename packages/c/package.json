@@ -1,0 +1,14 @@
+{
+  "name": "@my-project/c",
+  "version": "0.0.0",
+  "description": "",
+  "license": "UNLICENSED",
+  "author": "My Organization <support@example.com> (https://example.com/)",
+  "main": "index.js",
+  "scripts": {
+    "build": "# build @my-project/c"
+  },
+  "dependencies": {
+    "sax": "^1.2.4"
+  }
+}

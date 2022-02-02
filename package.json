@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "license": "UNLICENSED",
+  "private": true,
+  "workspaces": [
+    "packages/c",
+    "packages/b",
+    "packages/a"
+  ],
+  "engines": {
+    "npm": "7.18.x"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow npm"
+  }
+}
